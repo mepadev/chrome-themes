@@ -1,67 +1,33 @@
 {
-  "manifest_version": 3,
-  "version": "1.0.0",
-  "name": "Example Theme",
-  "short_name": "Example",
-  "author": "Mepamaze",
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "name": "Example Theme",
+    "short_name": "Example",
+    "author": "Mepamaze",
 
-  "theme": {
+    "theme": {
+        "images": {
+            "theme_frame": "images/theme_frame.png",
+            "theme_frame_inactive": "images/theme_frame_inactive.png",
 
-    "images": {
-      "theme_frame": "images/red.png",
-      "theme_frame_inactive": "images/red.png",
+            "theme_ntp_background": "images/ntp_background.png",
 
-      "theme_toolbar": "images/red.png",
-    
-      "theme_tab_background": "images/red.png",
-      "theme_tab_background_inactive": "images/red.png",
+            "theme_ntp_attribution": "images/mepamaze.png"
+        },
+        "colors": {
+            "toolbar": [58, 135, 140],
+            "toolbar_button_icon": [84, 255, 178],
+            "ntp_background": [50, 128, 113]
 
-      "theme_ntp_background": "images/monkey.jpg",
-      "theme_frame_overlay": "images/red.png",
-      "theme_frame_overlay_inactive": "images/red.png",
-      "theme_button_background": "images/red.png",
-      "theme_ntp_attribution": "images/mepamaze.png",
-      "theme_window_control_background": "images/red.png"
-    },
+        },
+        "tints": {
+            "background_tab": [ 0.4742, 0.6909, 0.1137 ]
+        },
 
-    "tints": {
-      "background_tab": [255, 255, 255],
-      "buttons": [255, 255, 255],
-
-      "frame": [255, 255, 255],
-      "frame_inactive": [255, 255, 255]
-    },
-
-    "colors": {
-      "frame": [0, 0, 255],
-      "frame_inactive": [0, 0, 255],
-
-      "toolbar": [255, 255, 255],
-      "toolbar_button_icon": [255, 255, 255],
-      "toolbar_text": [255, 255, 255],
-
-      "tab_background_text": [255, 255, 255],
-      "tab_background_text_inactive": [255, 255, 255],
-      "tab_text": [255, 255, 255],
-
-      "background_tab": [255, 255, 255],
-      "background_tab_inactive": [255, 255, 255],
-
-      "bookmark_text": [255, 255, 255],
-      "button_background": [255, 255, 255],
-
-      "ntp_background": [0, 255, 0],
-      "ntp_header": [0, 255, 255],
-      "ntp_link": [0, 255, 255],
-      "ntp_text": [0, 255, 255],
-
-      "omnibox_background": [255, 255, 255],
-      "omnibox_text": [255, 255, 255]
-    },
-
-    "properties": {
-      "ntp_background_alignment": "bottom",
-      "ntp_background_repeat": "stretch"
+        "properties": {
+            "ntp_background_alignment": "bottom",
+            "ntp_background_repeat": "no-repeat",
+            "ntp_logo_alternate": 0
+        }
     }
-  }
 }

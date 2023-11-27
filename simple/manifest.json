@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "name": "Simple Theme",
+  "short_name": "simple",
+  "author": "Mepamaze",
+
+  "theme": {
+    "colors": {
+        "omnibox_text": [0, 255, 0]
+      }
+  }
+}

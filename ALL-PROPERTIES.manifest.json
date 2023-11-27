@@ -1,0 +1,69 @@
+{
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "name": "Simple Theme",
+    "short_name": "simple",
+    "author": "Mepamaze",
+  
+    "theme": {
+  
+      "images": {
+        "theme_frame": "images/red.png",
+        "theme_frame_inactive": "images/red.png",
+  
+        "theme_toolbar": "images/red.png",
+      
+        "theme_tab_background": "images/green.png",
+        "theme_tab_background_inactive": "images/blue.png",
+  
+        "theme_ntp_background": "images/goku.png",
+        "theme_frame_overlay": "images/red.png",
+        "theme_frame_overlay_inactive": "images/red.png",
+        "theme_button_background": "images/red.png",
+        "theme_ntp_attribution": "images/mepamaze.png",
+        "theme_window_control_background": "images/red.png"
+      },
+  
+      "tints": {
+        "background_tab": [1, 1, 1],
+        "buttons": [1, 1, 1],
+  
+        "frame": [1, 1, 1],
+        "frame_inactive": [1, 1, 1]
+      },
+  
+      "colors": {
+        "frame": [0, 0, 255],
+        "frame_inactive": [255, 255, 255],
+  
+        "toolbar": [255, 255, 255],
+        "toolbar_button_icon": [255, 255, 255],
+        "toolbar_text": [255, 255, 255],
+  
+        "tab_background_text": [255, 255, 255],
+        "tab_background_text_inactive": [255, 255, 255],
+        "tab_text": [255, 255, 255],
+  
+        "background_tab": [255, 255, 255],
+        "background_tab_inactive": [255, 255, 255],
+  
+        "bookmark_text": [255, 255, 255],
+        "button_background": [255, 255, 255],
+  
+        "ntp_background": [255, 255, 255],
+        "ntp_header": [255, 255, 255],
+        "ntp_link": [255, 255, 255],
+        "ntp_text": [0, 255, 255],
+  
+        "omnibox_background": [255, 255, 255],
+        "omnibox_text": [255, 255, 255]
+      },
+  
+      "properties": {
+        "ntp_background_alignment": "center",
+        "ntp_background_repeat": "repeat",
+        "ntp_logo_alternate": 0
+      }
+    }
+  }
+  
