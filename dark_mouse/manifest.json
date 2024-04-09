@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+    "version": "1.0.1",
+    "name": "Dark Mouse",
+    "short_name": "Darkmouse",
+    "author": "Mepamaze",
+  
+    "theme": {
+  
+      "images": {
+        "theme_ntp_background": "images/mouse.png",
+
+        "theme_ntp_attribution": "images/mepamaze.png"
+      },
+  
+      "tints": {
+        "background_tab": [ 0.4742, 0.6909, 0.1137 ]
+      },
+  
+      "colors": {
+        "toolbar": [35, 46, 56],
+        "toolbar_button_icon": [219, 219, 219],
+        "ntp_background": [75, 96, 117]
+      },
+  
+      "properties": {
+        "ntp_background_alignment": "bottom",
+        "ntp_background_repeat": "no-repeat",
+        "ntp_logo_alternate": 0
+      }
+    }
+  }
