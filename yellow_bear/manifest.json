@@ -1,0 +1,51 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "name": "Yellow Bear",
+  "short_name": "Yellowbear",
+  "author": "Mepamaze",
+
+  "theme": {
+
+    "images": {
+      "theme_ntp_background": "images/yellow_bear.png",
+
+      "theme_ntp_attribution": "images/mepamaze.png"
+    },
+
+    "tints": {
+      "frame": [0.1028, 1, 0.82],
+      "frame_inactive": [0.1028, 1, 0.82],
+
+      "buttons": [0, 0, 0]
+    },
+
+    "colors": {
+      "toolbar": [255, 173, 46],
+      "toolbar_button_icon": [255, 255, 255],
+
+      "tab_text": [255, 255, 255],
+      "tab_background_text_inactive": [255, 255, 255],
+
+      "background_tab": [255, 203, 120],
+      "background_tab_inactive": [255, 203, 120],
+
+      "bookmark_text": [255, 255, 255],
+      "button_background": [255, 224, 66],
+  
+      "ntp_background": [255, 255, 255],
+      "ntp_header": [0, 0, 0],
+      "ntp_link": [0, 0, 0],
+      "ntp_text": [0, 0, 0],
+
+      "omnibox_background": [50, 50, 50],
+      "omnibox_text": [255, 255, 255]
+    },
+
+    "properties": {
+      "ntp_background_alignment": "bottom",
+      "ntp_background_repeat": "no-repeat",
+      "ntp_logo_alternate": 1
+    }
+  }
+}
