@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Yellow Bear",
   "short_name": "Yellowbear",
   "author": "Mepamaze",
@@ -22,6 +22,7 @@
 
     "colors": {
       "toolbar": [255, 173, 46],
+      "toolbar_text": [255,255,255],
       "toolbar_button_icon": [255, 255, 255],
 
       "tab_text": [255, 255, 255],
