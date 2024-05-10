@@ -1,0 +1,51 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "name": "Green Boy",
+  "short_name": "greenboy",
+  "author": "Mepadev",
+
+  "theme": {
+
+    "images": {
+      "theme_ntp_background": "images/green_boy.png"
+    },
+
+    "tints": {
+      "frame": [0.3, 0.85, 0.79],
+      "frame_inactive": [0.353, 0.64, 0.46],
+
+      "buttons": [255, 255, 255]
+    },
+
+    "colors": {
+      "toolbar": [34, 122, 24],
+      "toolbar_text": [255,255,255],
+      "toolbar_button_icon": [255, 255, 255],
+
+      "tab_text": [255, 255, 255],
+      "tab_background_text": [255, 255, 255],
+      "tab_background_text_inactive": [255, 255, 255],
+
+      "background_tab": [48, 156, 36],
+      "background_tab_inactive": [35, 89, 29],
+
+      "bookmark_text": [255, 255, 255],
+      "button_background": [10, 43, 19],
+  
+      "ntp_background": [146, 196, 123],
+      "ntp_header": [255, 255, 255],
+      "ntp_link": [255, 255, 255],
+      "ntp_text": [255, 255, 255],
+
+      "omnibox_background": [10, 33, 0],
+      "omnibox_text": [255, 255, 255]
+    },
+
+    "properties": {
+      "ntp_background_alignment": "bottom",
+      "ntp_background_repeat": "no-repeat",
+      "ntp_logo_alternate": 1
+    }
+  }
+}

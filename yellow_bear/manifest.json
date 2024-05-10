@@ -1,16 +1,14 @@
 {
   "manifest_version": 3,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "name": "Yellow Bear",
   "short_name": "Yellowbear",
-  "author": "Mepamaze",
+  "author": "Mepadev",
 
   "theme": {
 
     "images": {
-      "theme_ntp_background": "images/yellow_bear.png",
-
-      "theme_ntp_attribution": "images/mepamaze.png"
+      "theme_ntp_background": "images/yellow_bear.png"
     },
 
     "tints": {

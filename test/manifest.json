@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
   "version": "1.0.0",
-  "name": "Simple Theme",
-  "short_name": "simple",
-  "author": "Mepamaze",
+  "name": "Test Theme",
+  "short_name": "test",
+  "author": "mepadev",
 
   "theme": {
     "colors": {

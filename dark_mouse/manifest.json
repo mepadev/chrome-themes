@@ -1,16 +1,14 @@
 {
     "manifest_version": 3,
-    "version": "1.1.0",
+    "version": "1.1.1",
     "name": "Dark Mouse",
     "short_name": "Darkmouse",
-    "author": "Mepamaze",
+    "author": "Mepadev",
   
     "theme": {
   
       "images": {
-        "theme_ntp_background": "images/mouse.png",
-
-        "theme_ntp_attribution": "images/mepamaze.png"
+        "theme_ntp_background": "images/mouse.png"
       },
   
       "tints": {
