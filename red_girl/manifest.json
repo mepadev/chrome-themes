@@ -1,25 +1,24 @@
 {
   "manifest_version": 3,
-  "version": "1.0.3",
-  "name": "Yellow Bear",
-  "short_name": "Yellowbear",
+  "version": "1.0.0",
+  "name": "Red Girl",
+  "short_name": "redgirl",
   "author": "Mepadev",
 
   "theme": {
-
     "images": {
-      "theme_ntp_background": "images/yellow_bear.png"
+      "theme_ntp_background": "images/red_girl.png"
     },
 
     "tints": {
-      "frame": [0.1028, 1, 0.82],
-      "frame_inactive": [0.1028, 1, 0.82],
+      "frame": [0.0, 0.62, 0.68],
+      "frame_inactive": [0, 0.75, 0.48],
 
       "buttons": [255, 255, 255]
     },
 
     "colors": {
-      "toolbar": [255, 173, 46],
+      "toolbar": [179, 41, 41],
       "toolbar_text": [255,255,255],
       "toolbar_button_icon": [255, 255, 255],
 
@@ -27,18 +26,18 @@
       "tab_background_text": [255, 255, 255],
       "tab_background_text_inactive": [255, 255, 255],
 
-      "background_tab": [255, 203, 120],
-      "background_tab_inactive": [255, 203, 120],
+      "background_tab": [207, 99, 99],
+      "background_tab_inactive": [209, 86, 86],
 
       "bookmark_text": [255, 255, 255],
-      "button_background": [255, 224, 66],
+      "button_background": [92, 37, 37],
   
-      "ntp_background": [255, 255, 255],
+      "ntp_background": [255, 237, 237],
       "ntp_header": [255, 255, 255],
       "ntp_link": [255, 255, 255],
       "ntp_text": [255, 255, 255],
 
-      "omnibox_background": [50, 50, 50],
+      "omnibox_background": [128, 51, 51],
       "omnibox_text": [255, 255, 255]
     },
 
